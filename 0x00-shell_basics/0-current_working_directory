@@ -1,2 +1,4 @@
 #!/bin/bash
-echo $(realpath $0)
+
+echo =$(dirname $(realpath $0))
+
